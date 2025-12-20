@@ -1,0 +1,14 @@
+h1,p{
+   color: red; 
+   background-color: black;
+   text-align: center;
+}
+
+/* body{
+    background-color: black;
+    color: white;
+} */
+span{
+    color: rgb(120, 239, 203);
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+    /* background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8MTkyMHgxMDgwfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+div.container{
+    background-image: url(./8251.jpg_wh1200.jpg);
+    height: 60%;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

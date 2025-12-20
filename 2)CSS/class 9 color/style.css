@@ -1,0 +1,135 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap'); */
+
+/* h1{
+    color: darkblue;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: "Playwrite NO", cursive */
+    /* font-size: 10px; */
+    
+}
+
+h1{
+    /* color: rgb(155, 165, 19); */
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* background-color: hsl(185, 0%, 46%); */
+    /* opacity: 1; */
+}
+
+p{
+    /* font-size: 75%; */
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* line-height:  20px; */
+    /* letter-spacing: 1px; */
+    /* word-spacing: 10px; */
+    /* text-align: right; */
+    /* text-align: justify; */
+
+}
+/* #p2{
+    font-style: oblique;
+
+} */
+
+a{
+    /* text-decoration: overline; */
+}
+p::first-line{
+    /* color: blue!important;  */
+}
+p::first-letter{
+    /* text-indent: 20px; */
+    /* padding-left: 20px; */
+    /* text-align: center; */
+    /* text-shadow: 1px 1px 3px #666666; */
+    /* text-shadow:  2px 2px rgba(206,89,55,0) */
+    /* font-size: 30px; */
+    /* color: red; */
+
+
+
+  
+
+}
+
+a:link{
+    /* color: red; */
+}
+
+a{
+    color: aqua;
+}
+
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+#box{
+    /* background-color: rgb(255, 214, 214); */
+    color: red;
+    /* width: 100px;
+    height: 100px; */
+
+    /* max-width: 300px; */
+    /* height: 20px; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    /* border: 2px solid blue; */
+    /* margin: 20px; */
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px; */
+    /* margin: 20px; */
+    /* margin: 20px 30px; */
+    /* margin: 20px 10px 5px 20px; */
+    /* padding: 10px; */
+    /* margin-left:100px */
+    /* margin: auto; */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blue; */
+
+    /* border: 2px solid blue; */
+
+
+
+
+}
+
+
+/* #box:hover{
+    background-color: red;
+} */
+
+/* #box:active{
+    background-color: red;
+} */
+
+/* #box:focus{
+    background-color: red;
+} */
+
+.p1{
+    display: inline-block;
+    background-color: red;
+    margin-bottom: 20px;
+    width: 300px;
+}

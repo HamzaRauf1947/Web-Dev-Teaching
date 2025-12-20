@@ -1,0 +1,114 @@
+/* p{
+    color: red;
+    background-color: black;
+} */
+
+/* *{
+    background-color: blue;
+    color: white;
+} */
+
+/* h1,h2,h3{
+    color: red;
+    background-color: black;
+} */
+
+/* p.note{
+    color: red;
+}
+
+#imp{
+    color: red;
+} */
+
+
+/* ul>li{
+    color: red;
+} */
+
+/* div>a{
+    color: red;
+}
+
+body>a{
+    color: blue;
+} */
+
+/* p{
+    color: aqua;
+} */
+
+/* div p{
+    color: aqua;
+} */
+
+
+/* div a+p{
+    color: blue;
+} */
+
+/* div p+h1{
+    color: red;
+} */
+
+/* div a~p{
+    color: aqua;
+} */
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: red;
+}
+
+b {
+    color: pink;
+}
+
+p b {
+    color: blue !important;
+}
+
+p b {
+    color: violet;
+}
+
+p#intro {
+    font-size: 100%;
+    background-color: red;
+}
+
+p {
+    font-size: 75%;
+    background-color: aqua;
+}
+
+
+ul{
+    border: 2px solid rgb(31, 6, 6);
+    padding: 10px;
+}
+
+ul li{
+    border: inherit;
+    padding: inherit;
+}
