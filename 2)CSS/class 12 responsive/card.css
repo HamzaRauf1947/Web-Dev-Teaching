@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+    width: 25%;
+    /* height: 500px; */
+    /* background-color: rgb(221, 118, 118); */
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.cardTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardTop button{
+    background-color: rgb(84, 235, 84);
+    cursor: pointer;
+    padding: 6px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+   font-weight: 700;
+}
+
+.cardTop span{
+    color: rgb(88, 87, 87);
+}
+
+.centerContent .logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.centerContent .logo i{
+    color: rgb(33, 148, 166)
+}
+
+.centerContent .logo p{
+    color: rgba(33, 148, 166, 0.768)
+}
+.centerContent img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.centerContent{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 20px;
+    
+}
+
+.centerContent div #para{
+    margin: 10px 0px;
+}
+
+.uiUX{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0 40px 0;
+}
+
+.uiUX button{
+    background-color:rgb(33, 148, 166);
+    border:none;
+    border-radius: 12px;
+    color: white;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pCenter{
+    text-align: center;
+}
+
+.btnCenter{
+    margin: 40px 0 20px 0  ;
+    display: flex;
+    justify-content: center;
+}
+
+.btnCenter a{
+    text-decoration: none;
+    color: gray;
+}
+
+.mainCard{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width:1283px) {
+    .mainCard{
+       flex-wrap: wrap;
+       
+
+    }
+    .card{
+        width: calc(100% /3);
+    }
+}
+
+@media screen and (max-width:854px) {
+   .card{
+       width: 50%;
+    }
+}
+
+@media screen and (max-width:598px) {
+   .card{
+       width: 90%;
+    }
+}

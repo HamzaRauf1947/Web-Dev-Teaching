@@ -1,0 +1,14 @@
+.box{
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+     
+}
+
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+    .box{
+       background-color: yellow;
+        width: 100%;
+    }
+}
