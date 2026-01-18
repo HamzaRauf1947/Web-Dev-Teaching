@@ -40,7 +40,7 @@
 
 
 //  var originalNum = "23"; 
-//  var newNum = originalNum - 7;   //Concatination (jb bhi strng k sath numb add(+) hojae)
+//  var newNum = originalNum + 7;   //Concatination (jb bhi strng k sath numb add(+) hojae)
 //  console.log(newNum);
 
 
